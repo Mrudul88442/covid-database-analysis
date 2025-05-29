@@ -4,11 +4,11 @@ import sqlalchemy
 import matplotlib.pyplot as plt 
 df = pd.DataFrame()
 # Global data frame variable and file path
-a=(r"C:\Users\Mrudul\Desktop\New Microsoft Office Excel Worksheet - Copy (1).csv")
+a=(r"C:\Users\Mrudul\Desktop\covid data csv.csv")
 def read_csv_file():
     df=pd.read_csv(a)
     print(df)
-a=(r"C:\Users\Mrudul\Desktop\New Microsoft Office Excel Worksheet - Copy (1).csv")
+a=(r"C:\Users\Mrudul\Desktop\covid data csv.csv")
 df =pd.read_csv(a)
 print(df)
 print(df.index)
